@@ -1,3 +1,4 @@
+mod array;
 mod avl_tree;
 mod b_tree;
 mod binary_search_tree;
@@ -12,6 +13,7 @@ mod stack_using_singly_linked_list;
 mod trie;
 mod union_find;
 
+pub use self::array::quick_select;
 pub use self::avl_tree::AVLTree;
 pub use self::b_tree::BTree;
 pub use self::binary_search_tree::BinarySearchTree;
